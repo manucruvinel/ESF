@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
-  --base-collor: #FFFFE4
+  --base-color: #FFFFE4
+  --text-color: #000000
+  --primary-color: #9B0000
+  --secondary-color: #152238
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizig: border-box;
+}
+
+html {
+  font-family: Merriweather;
+  color: var(--text-color);
+}
+
+body {
+  padding: 1em;
+  background-color: var(--base-color);
+}
+
+h1, h2, h3 {
+  font-family: Merriweather;
 }
