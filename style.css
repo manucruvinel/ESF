@@ -8,6 +8,7 @@
   --text-color: #000000
   --primary-color: #9B0000
   --secondary-color: #152238
+  --color-1: #FDFBD4
 }
 
 * {
@@ -29,3 +30,39 @@ body {
 h1, h2, h3 {
   font-family: Montserrat, Playfair-Display, Nunito-Sans, Lora;
 }
+
+nav{
+  margin: 1em auto 3em auto;
+  width: min(1000px, 100%)
+}
+
+nav ul {
+  display: flex; 
+  align-items: center; 
+  list-style-type: none;
+  gap: 2em; 
+}
+
+nav li:first-child {
+  margin-right: auto;
+  font-family: Merriweather, Playfair-Display;
+  font-family: bold;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+nav a:hover{
+  text-decoration: underline;
+}
+
+header, section {
+  margin: 2em auto;
+  width: (75em, 100%);
+  backgroun-color: var(--color-1);
+  padding: min(2em, 15%);
+  border-radius: 1em; 
+}
+
