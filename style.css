@@ -66,3 +66,41 @@ header, section {
   border-radius: 1em; 
 }
 
+.flex-container{
+  display: flex;
+  justify-content: center;
+  align-itens: center; 
+  flex-wrap: wrap;
+  gap: 3em; 
+}
+
+header img{
+  max-width: 100%;
+  border-radius: 1em;
+  object-fit: cover;
+  object-position: bottom;
+  }
+
+.text-container{
+  flex: 0 1 34em; 
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+.text-container p {
+  margin: .75em 0 1em 0; 
+  font-size: 1.25em;
+}
+
+.cta-button {
+  display: inline-block;
+  text-decoration: none;
+  color: #FFFFE4
+  background-color: var(--primary-color);
+  padding: .75em 1.25em; 
+  border-radius: .5em;
+  font-weight: 600;
+
+}
