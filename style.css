@@ -108,3 +108,18 @@ h1 {
 .secondary {
   background-color: var(--secondary-color);
 }
+
+section {
+  padding: 3em min(2em, 15%);
+  background-color: var(--secondary-color);
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+section p {
+  margin-top: 1em;
+  font-size: 1.25rem;
+}
